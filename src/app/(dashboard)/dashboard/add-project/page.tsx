@@ -11,6 +11,7 @@ import { Alert, AlertDescription } from "@/components/ui/alert"
 import { ArrowLeft, Plus, X, Loader2, Image as ImageIcon, AlertCircle, Calendar } from "lucide-react"
 import Link from "next/link"
 import { createProject } from "@/lib/apis"
+import Image from "next/image"
 
 export default function AddProjectPage() {
     const router = useRouter()
@@ -223,7 +224,7 @@ export default function AddProjectPage() {
                                     </div>
                                     {formData.thumbnail && (
                                         <div className="mt-2 p-2 border rounded-lg">
-                                            <img
+                                            <Image
                                                 src={formData.thumbnail}
                                                 alt="Preview"
                                                 className="w-full h-48 object-cover rounded"

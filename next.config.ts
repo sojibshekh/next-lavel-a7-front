@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    domains: ['i.ibb.co', 'i.ibb.co.com'], // এখানে তোমার image host যোগ করো
+  },
 };
 
 export default nextConfig;

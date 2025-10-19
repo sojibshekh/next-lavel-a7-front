@@ -14,6 +14,7 @@ import Link from "next/link"
 import { createBlog } from "@/lib/apis"
 import { Textarea } from "@/components/ui/textarea"
 import { Switch } from "@/components/ui/switch"
+import Image from "next/image"
 
 export default function AddBlogPage() {
     const router = useRouter()
@@ -173,7 +174,7 @@ export default function AddBlogPage() {
                                 </div>
                                 {formData.thumbnail && (
                                     <div className="mt-2 p-2 border rounded-lg">
-                                        <img
+                                        <Image
                                             src={formData.thumbnail}
                                             alt="Preview"
                                             className="w-full h-48 object-cover rounded"
