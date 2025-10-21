@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 Personal Portfolio Website (Next.js + Prisma + Express.js)
 
-## Getting Started
+A modern full-stack **Portfolio Website** built with **Next.js**, **Express.js**, and **Prisma ORM**, designed to showcase your projects, blogs, and personal details dynamically.  
+It includes **JWT authentication**, an **Admin Dashboard**, and optimized **ISR/SSG rendering** for performance and SEO.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Live Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Frontend live:** https://portfolio-frontend-blush-eta.vercel.app/  
+**Backend live:** https://portfolio-backend-zeta-nine.vercel.app/
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Frontend GitHub:** https://github.com/sojibshekh/next-lavel-a7-front 
+**Backend GitHub:** https://github.com/sojibshekh/next-lavel-a7-server
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Admin Credentials:**  
+Email: admin@gmail.com
+Password: Admin@123
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🧭 Overview
 
-## Deploy on Vercel
+This project serves as a personal CMS and portfolio.  
+Public visitors can explore your blogs, projects, and personal details, while you can log in securely to manage content via a private dashboard.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ✨ Core Objectives
+
+- Public pages for About, Projects, and Blogs  
+- JWT authentication for admin access  
+- CRUD for blogs & projects  
+- ISR/SSG rendering  
+- Clean responsive UI with TailwindCSS  
+- Secure backend using Express + Prisma  
+
+---
+
+## 🏗️ Features
+
+### 🔓 Public Features
+- Home page with introduction and navigation  
+- About Me section (SSG)  
+- Dynamic project listing (ISR)  
+- Blog list and single blog pages (ISR)
+
+### 🔐 Private Features
+- Admin authentication (JWT + bcrypt)  
+- Admin dashboard for managing blogs & projects  
+- Protected API routes  
+
+---
+
+## 🧰 Tech Stack
+
+| Category | Technology |
+|-----------|-------------|
+| **Frontend** | Next.js 15 + TypeScript |
+| **Styling** | Tailwind CSS |
+| **Backend** | Node.js + Express.js |
+| **Database** | PostgreSQL + Prisma ORM |
+| **Auth** | JWT + bcrypt |
+| **Notification** | react-hot-toast |
+| **Editor (Bonus)** | React Quill |
+| **Deployment** | Vercel / Render |
+
+---
+
+## 🧱 Project Structure
+

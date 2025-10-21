@@ -116,11 +116,11 @@ export default function DashboardPage() {
         <Tabs defaultValue="blogs" className="space-y-6">
           <div className="flex items-center justify-between">
             <TabsList>
-              <TabsTrigger value="blogs" className="gap-2">
+              <TabsTrigger value="blogs" className="gap-4 m-2 shadow-sm box-border">
                 <FileText className="h-4 w-4" />
                 Blogs
               </TabsTrigger>
-              <TabsTrigger value="projects" className="gap-2">
+              <TabsTrigger value="projects" className="gap-4  m-2 shadow-sm box-border">
                 <FolderKanban className="h-4 w-4" />
                 Projects
               </TabsTrigger>

@@ -1,14 +1,19 @@
 
-import { AppSidebar } from '@/components/app-sidebar';
-import { SidebarInset, SidebarProvider, SidebarTrigger } from '@/components/ui/sidebar';
-import { Separator } from '@radix-ui/react-separator';
-import React from 'react';
+import { AppSidebar } from "@/components/Dashborad/AppSidebar";
+import { Separator } from "@/components/ui/separator";
+import {
+    SidebarInset,
+    SidebarProvider,
+    SidebarTrigger,
+} from "@/components/ui/sidebar";
+import { requireAuth } from "@/lib/auth";
 
-const layout = ({
+export default async function DashboardLayout({
     children,
 }: Readonly<{
     children: React.ReactNode;
-}>) => {
+}>) {
+    await requireAuth()
     return (
         <SidebarProvider>
             <AppSidebar />
@@ -26,6 +31,4 @@ const layout = ({
             </SidebarInset>
         </SidebarProvider>
     );
-};
-
-export default layout;
+}
