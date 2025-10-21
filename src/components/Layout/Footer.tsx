@@ -3,11 +3,11 @@ import React from 'react';
 const Footer = () => {
     return (
         <div>
-            <footer className="bg-white dark:bg-gray-900">
+            <footer className="bg-black text-white dark:bg-gray-900">
   <div className="mx-auto max-w-screen-xl px-4 pt-16 pb-8 sm:px-6 lg:px-8 lg:pt-24">
     <div className="text-center">
-      <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl dark:text-white">
-        Customise Your Product
+      <h2 className="text-3xl font-extrabold text-white sm:text-5xl dark:text-white">
+        sojib sheikh
       </h2>
 
       <p className="mx-auto mt-4 max-w-sm text-gray-500 dark:text-gray-400">
@@ -15,12 +15,7 @@ const Footer = () => {
         ea nihil.
       </p>
 
-      <a
-        href="#"
-        className="mt-8 inline-block rounded-full border border-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-indigo-600 hover:text-white focus:ring-3 focus:outline-hidden"
-      >
-        Get Started
-      </a>
+    
     </div>
 
     <div

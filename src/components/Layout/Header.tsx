@@ -58,13 +58,9 @@ const Header = () => {
                     {/* Main nav */}
                     <div className="flex items-center justify-between w-full">
                         <Link className="" href="/">
-                            <Image
-                                src={logoMain}
-                                width={100}
-                                height={35}
-                                alt="Main Logo"
-                                priority
-                            />
+                        <h2 className='text-white'>Sojib Sheikh</h2>
+
+                          
                         </Link>
                         {/* Navigation menu */}
                         <NavigationMenu className="max-md:hidden">

@@ -30,7 +30,7 @@ export const metadata: Metadata = {
 async function fetchBlogs() {
     try {
         const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/blog/all?limit=9&page=1`, {
-            cache: "no-store",
+           
             next: { revalidate: 3600 }
         })
 
